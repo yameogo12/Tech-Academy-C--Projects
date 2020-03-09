@@ -23,15 +23,18 @@ namespace Iteration_page_141
             //}
             //Console.ReadLine();
 
-           foreach(string house in houses)
+          
+            
+            foreach(string house in houses)
               {
                 Console.WriteLine(Name + house);
-                //if (Name != house)
-                //{
-                //    Console.WriteLine("That name is not on this array");
+                
                 }
                 Console.ReadLine();
             }
+
+
+
 
             //foreach (int x = 0; x < houses.Length; x++)
             //{
