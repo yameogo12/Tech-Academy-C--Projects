@@ -22,30 +22,27 @@ namespace ITERATION_Lessons
 
             //Console.ReadLine();
 
-        //    string[] names = { "sam", "yam", "sidbe" };
+            string[] names = { "sam", "yam", "sidbe" };
 
-        //    //   for (int y = 0;  y < names.Length; y++)
-        //    //   {
-        //    //       if (names[y] =="yam")
-        //    //   }
-        //    //   Console.WriteLine(names[y]);
-        //    //}
-        //    //   Console.ReadLine();
+            for (int y = 0; y < names.Length; y++)
+            {
+                if (names[y] == "yam")
+                {
+                    Console.WriteLine(names[y]);
+                }
+            }
+            Console.ReadLine();
 
-        //    for (int y = 0; y < names.Length; y++)
-        //    {
-        //        Console.WriteLine(names[y]);
-        //    }
-        //    Console.WriteLine();
+            for (int y = 0; y < names.Length; y++)
+            {
+                Console.WriteLine(names[y]);
+            }
+            Console.WriteLine();
 
 
 
         }
-
-
-
     }
-
 }
 
 
